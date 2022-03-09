@@ -42,7 +42,7 @@ args = parser.parse_args()
 nltk.download('stopwords') # If needed
 nltk.download('punkt') # If needed
 nltk.download('wordnet') # If needed
-# nltk.download('omw-1.4')
+nltk.download('omw-1.4')
 
 
 """# Importing data from drive
