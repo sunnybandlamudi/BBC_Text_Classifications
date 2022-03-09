@@ -11,34 +11,20 @@ By default it takes svc algorithm
 
 
 
-python3 bbc.py --algorithm rf : uses Random Forest algorithm
+python3 bbc.py --algorithm svc : uses SVC algorithm
 
 
 python3 bbc.py --algorithm nv : Uses Naive Bayes algorithm
 
 
-python3 bbc.py --algorithm svm
+python3 bbc.py --algorithm rf
 
-Above command does the text classification by taking SVC as the training algorithm
+Above command does the text classification by taking Random Forest as the training algorithm
 
 
 Output:
 
 Drive is not mounted so picking data from github url
-Text processing...
-Cleaning done
-Shape of Train Set is  (1780, 4)
-Shape of Dev Set is  (222, 4)
-Shape of Test Set is  (223, 4)
-Drive is not mounted so picking data from github url
-Text processing...
-Cleaning done
-Shape of Train Set is  (1780, 4)
-Shape of Dev Set is  (222, 4)
-Shape of Test Set is  (223, 4)
-
-
-Drive is not mounted so picking data from github url
 
 Text processing...
 
@@ -49,6 +35,8 @@ Shape of Train Set is  (1780, 4)
 Shape of Dev Set is  (222, 4)
 
 Shape of Test Set is  (223, 4)
+
+
 
 Training with Random Forest as the model
 
